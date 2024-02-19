@@ -8,6 +8,14 @@ interface BoardIdPageProps {
   }
 };
 
+export const generateMetadata = async({params}:any)=>{
+
+  return {
+    title:`Webwrite | Board | ${params.id}`,
+    description:"Webwrite facilitates collaborative brainstorming with its online whiteboard, fostering dynamic idea exchanges among team members."
+  }
+}
+
 const BoardIdPage = ({
   params,
 }: BoardIdPageProps) => {

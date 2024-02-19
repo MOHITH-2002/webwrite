@@ -7,7 +7,7 @@ import React from 'react'
 
 const SidebarMenu = ({toggle}:any) => {
   return (
-    <Link href="/" className="aspect-square bg-[#0c141c] hover:bg-[#0c141c]" >
+    <Link href="/home" className="aspect-square bg-[#0c141c] hover:bg-[#0c141c]" >
         <div className=" flex items-center justify-center">
 
    <Image

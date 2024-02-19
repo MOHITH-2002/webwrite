@@ -43,29 +43,7 @@ const favorites = SearchParams.get('favorites')
           </Link>
         </Button>
         </Hint>
-        <Hint
-    label="Favorites"
-    side="bottom"
-    align="start"
-    sideOffset={10}
-    >
-
-        <Button
-          variant={favorites ? "secondary" : "ghost"}
-          asChild
-          size="lg"
-          className=" px-2 w-full"
-          >
-          <Link href={{
-            pathname: "/",
-            query: { favorites: true }
-            
-          }}  className="flex items-center justify-center" >
-            <Star className="h-4 w-4 m-1" />
-            
-          </Link>
-        </Button>
-            </Hint>
+      
             {
               organization &&(
 
