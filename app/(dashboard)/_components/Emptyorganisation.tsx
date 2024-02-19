@@ -14,7 +14,7 @@ const EmptyOrg = () => {
   return (
     <div className='flex flex-col items-center justify-center gap-2'>
         
-      <Image src="/newelement.png" alt="" width={350} height={350} />
+      <Image src="https://res.cloudinary.com/dpgxmmowq/image/upload/v1708358360/webwrite/newelement_ogrjqz.png" alt="" width={350} height={350} />
       <h1 className="text-4xl gap-2 text-center"><b className='text-[#E56F8C]'>Welcome </b><b className='text-[#0080ff]'>to</b> <b className='text-[#7476ED]'>WebWrite</b></h1>
       <span className="text-muted-foreground">Create an organization to get started</span>
       <div className="mt-5">

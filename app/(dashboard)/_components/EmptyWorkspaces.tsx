@@ -27,7 +27,7 @@ const EmptyWorkspaces = () => {
     }
   return (
         <div className="flex flex-col h-full items-center justify-center gap-2">
-        <Image src="/nodashboards.png " height={250} width={250} alt="nofav" />
+        <Image src="https://res.cloudinary.com/dpgxmmowq/image/upload/v1708358133/webwrite/nodashboards_zgdzn5.png" height={250} width={250} alt="nofav" />
         <span className="text-muted-foreground text-xl">No Workspace found...</span>
        
         <Button onClick={handleClick}>Create Workspace</Button>
