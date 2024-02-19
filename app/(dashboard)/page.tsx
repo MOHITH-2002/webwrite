@@ -1,9 +1,9 @@
 "use client"
 import React from 'react';
 
-import EmptyOrg from '../_components/Emptyorganisation';
+import EmptyOrg from './_components/Emptyorganisation';
 import { useOrganization } from '@clerk/nextjs';
-import BoardList from '../_components/board/BoardList';
+import BoardList from './_components/board/BoardList';
 
 
 interface PageProps  {
