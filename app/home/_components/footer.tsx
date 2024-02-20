@@ -16,11 +16,11 @@ const Footer = () => {
             width={100}
         />
     </div>
-    <div className="flex gap-5 items-center">
+    <div className="flex flex-col  md:flex-row gap-5 items-center">
 
     
     <Link href="https://mbalinktree.vercel.app/">
-    <Button variant="outline">
+    <Button variant="outline" className="">
     Our Products
     </Button>
     </Link>

@@ -6,6 +6,7 @@ import Navbar from './_components/Navbar'
 import GradientRound from './_components/gradient-round'
 import Intro from './_components/intro'
 import Footer from './_components/footer'
+import Collabartion from './_components/Collabartion'
 
 const HomePage = () => {
   return (
@@ -14,6 +15,7 @@ const HomePage = () => {
         <Hero/>
         <GradientRound/>
         <Intro/>
+        <Collabartion/>
         <Footer/>
     </main>
   )

@@ -12,8 +12,8 @@ const Navbar = () => {
   const scrolled = Scrolled();
     const {isAuthenticated,isLoading} = useConvexAuth()
   return (
-    <div className={cn("flex w-full pt-3 px-5 justify-between fixed top-0  pb-3 backdrop-blur-xl",scrolled && "border-b shadow-xl")}>
-    <div className="flex  items-end">
+    <div className={cn("flex w-full pt-3 px-5 justify-between fixed top-0 z-[99]   pb-3 backdrop-blur-xl",scrolled && "border-b shadow-xl")}>
+    <div className="flex items-end">
     <Image
             src="/logo.svg"
             alt="Logo"
