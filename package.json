@@ -27,6 +27,7 @@
     "clsx": "^2.1.0",
     "convex": "^1.8.0",
     "date-fns": "^3.3.1",
+    "framer-motion": "^11.0.6",
     "html2canvas": "^1.4.1",
     "jspdf": "^2.5.1",
     "lucide-react": "^0.319.0",

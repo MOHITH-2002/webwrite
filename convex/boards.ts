@@ -1,12 +1,14 @@
 import { mutation, query } from "./_generated/server";
 import { v } from "convex/values";
-
+import { unstable_noStore as noStore } from "next/cache";
 export const get = query({ 
+    
     args:{
         orgId:v.string(),
         search:v.optional(v.string())
     },
     handler: async (ctx,args)=>{
+        noStore();
         const identity = await ctx.auth.getUserIdentity();
         if(!identity)
         return;

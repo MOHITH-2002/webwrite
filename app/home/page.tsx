@@ -7,6 +7,8 @@ import GradientRound from './_components/gradient-round'
 import Intro from './_components/intro'
 import Footer from './_components/footer'
 import Collabartion from './_components/Collabartion'
+import Earth from './_components/earth'
+
 
 const HomePage = () => {
   return (
@@ -16,9 +18,12 @@ const HomePage = () => {
         <GradientRound/>
         <Intro/>
         <Collabartion/>
+        <Earth/>
         <Footer/>
+        
     </main>
   )
 }
 
 export default HomePage
+
