@@ -18,7 +18,7 @@ const HomePage = () => {
         <GradientRound/>
         <Intro/>
         <Collabartion/>
-        <Earth/>
+{/*         <Earth/> */}
         <Footer/>
         
     </main>
